@@ -1,0 +1,62 @@
+.container {
+    height: 100px;
+    background: linear-gradient(
+        to left,
+        #FFAC3E,
+        #EB404E,
+        #004A43
+    );
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 5px black;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cinemaLounge {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.cinemaLounge:hover {
+    cursor: pointer;
+}
+
+.movies {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.movies:hover {
+    cursor: pointer;
+    color: #FFAC3E;
+}
+
+.tvShows {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.tvShows:hover {
+    cursor: pointer;
+    color: #FFAC3E;
+}
+
+.people {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.people:hover {
+    cursor: pointer;
+    color: #FFAC3E;
+}
