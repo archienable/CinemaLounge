@@ -15,16 +15,6 @@
     gap: 10px;
 }
 
-.moviesLink {
-    display: flex;
-    gap: 10px;
-}
-
-.itemLink:hover {
-    cursor: pointer;
-    color: red;
-}
-
 .selectedFilm {
     margin-top: 10px;
     width: 180px;
